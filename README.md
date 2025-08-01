@@ -24,6 +24,8 @@ git status
 ## Add File (from Working Directory to Staging Area)
 ```sh
 git add <file-name>                 # Add a specific file
+```
+```sh
 git add .                           # Add all files
 ```
 ## Commit Changes (from Staging Area to to Local Repository)
@@ -33,24 +35,38 @@ git commit -m "<commit-message>"
 ## Discard File
 ```sh
 git restore <file-name>             # discard a specific file
+```
+```sh
 git restore .                       # discard all files
 ```
 ## Remove File (Staging Area)
 ```sh
 git rm -rf <file-name>              # remove a specific file
+``
+```sh
 git rm -rf .                        # remove all files
 ```
 ## View History
 ```sh
 git log                             # full commit id(40), author, date, current branch, commit
+``
+```sh
 git log --oneline                   # the first seven commit id, current branch, commit
 ```
 ## Branching
 ```sh
 git branch <new-branch>             # create branch
+```
+```sh
 git checkout <new-branch>           # switch to the branch
+```
+```sh
 git checkout -b <new-branch>        # create + switch in one step
+```
+```sh
 git branch -b <branch-name>         # delete branch
+```
+```sh
 git branch -D <branch-name>         # -D = --delete --force, delete branch even if it has unmerged commits
 ```
 ## Merge Branch
@@ -68,6 +84,8 @@ git pull origin <new-branch>
 ## Compare Version
 ```sh
 git diff <commit_id>                # compare with current commit id
+```
+```sh
 git diff <old_commit_id> <new_commit_id>
 ```
 ## Reset Version
