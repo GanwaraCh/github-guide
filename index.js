@@ -7,3 +7,8 @@ function subtract(...nums) {
   return nums.reduce((a, b) => a - b);
 }
 console.log(subtract(100, 20, 10));
+function subtract2(...nums) {
+  if (nums.length === 0) return 0;
+  return nums.reduce((a, b) => a - b);
+}
+console.log(subtract2(100, 20, 10));
