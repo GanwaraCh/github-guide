@@ -16,3 +16,7 @@ function multiply(a, b) {
   return a * b;
 }
 console.log(multiply(5, 3));
+function multiply2(a, b) {
+  return a * b;
+}
+console.log(multiply2(5, 3));
