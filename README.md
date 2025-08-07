@@ -1,4 +1,4 @@
-﻿# Github Guide
+# Github Guide
 ## Git Workflow
 1. **Working Directory**            – Your local files.
 2. **Staging Area**                 – Files marked for commit.
