@@ -12,3 +12,7 @@ function subtract2(...nums) {
   return nums.reduce((a, b) => a - b);
 }
 console.log(subtract2(100, 20, 10));
+function multiply(a, b) {
+  return a * b;
+}
+console.log(multiply(5, 3));
